@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This project is no longer maintained. Please visit [motionface.cc](https://motionface.cc).
+
 <p align="right">
   <a href="./README.md">简体中文</a> | English
 </p>
