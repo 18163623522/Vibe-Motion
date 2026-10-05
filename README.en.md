@@ -121,6 +121,12 @@ Clones or updates `sxhzju/wechat-2d` and renders the default WeChat-style 2D cha
 
 Applies Disney's 12 animation principles as practical design and engineering rules for procedural animation. Use when creating, improving, reviewing, or debugging code-driven motion in web, SVG, canvas, React, Remotion, game, UI, character, camera, or 3D scenes — especially when motion feels stiff, weightless, mechanical, unclear, or physically correct but visually weak.
 
+### colorize
+
+A black-and-white to color reveal: mono gradient sweep + motion blur + Tyndall spin focus. The frame starts monochrome and spun, color sweeps in from the left, the spin settles from the center outward, and a soft glow remains. Works on images, videos, iPhone Live Photos (HEIC/JPG + MOV) and Android motion photos; several inputs can be joined into one clip. Standalone repo: [vibe-motion/colorize](https://github.com/vibe-motion/colorize).
+
+<img src="colorize/assets/demo.gif" alt="colorize black-and-white to color reveal" width="440" />
+
 ## Contributing
 
 Compress every GIF before opening a PR. Each GIF must be smaller than 1 MB (1,000,000 bytes), and should ideally be no larger than 250 KB (250,000 bytes). Reduce preview dimensions, frame rate, and palette size as needed; before submitting, verify that the full duration, loop, key text, and main subject remain legible.

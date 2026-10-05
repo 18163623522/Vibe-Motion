@@ -123,6 +123,12 @@ npx skills add vibe-motion/skills
 
 将迪士尼动画12原则应用于程序化动画的设计与工程实践。适用于创建、改进、审查或调试代码驱动的动画（Web、SVG、Canvas、React、Remotion、游戏、UI、角色、摄像机、3D 场景等），尤其当动画感觉僵硬、轻飘、机械、不清晰或物理正确但视觉表现力不足时。
 
+### colorize
+
+黑白 → 彩色的上色转场：单彩渐变 + 动感模糊 + 丁达尔旋焦。画面先是黑白并带旋转模糊，彩色从左向右扫入，旋焦从中心向外回正，最后留下柔和光晕。支持图片、视频、iPhone 实况照片（HEIC/JPG + MOV）和安卓动态照片，多个素材可拼成一条短片。独立仓库：[vibe-motion/colorize](https://github.com/vibe-motion/colorize)。
+
+<img src="colorize/assets/demo.gif" alt="colorize black-and-white to color reveal" width="440" />
+
 ## 提交贡献
 
 提交 PR 前，请先压缩所有 GIF。每个 GIF 必须小于 1 MB（1,000,000 字节），建议控制在 250 KB（250,000 字节）以内。可以通过降低预览分辨率、帧率和色板大小来压缩；提交前请确认完整时长、循环以及关键文字和主体仍可辨识。
